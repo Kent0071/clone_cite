@@ -64,8 +64,9 @@ body{
 }
 
 
-content {
+.content {
     max-width: 1440px;
+    margin: 0 auto;
 }
 .header {
     background-color: #ffc900;
@@ -89,6 +90,9 @@ content {
 }
 .header__menu li{
     padding: 0 19px;
+}
+.header__menu li:first-child{
+    padding-left: 0;
 }
 .header__link {
     text-transform: uppercase;
@@ -120,32 +124,160 @@ content {
 /*===========================================================================================================*/
 
 
-.footer {}
-.wrapper {}
-.footer__inner {}
-.footer__top {}
-.footer__columns {}
+.footer {
+    background-color: #1d1d1f;
+}
+.footer__inner {
+    padding: 75px 0px 20px 0px;
+}
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid hsla(0,0%,100%,.1);
+}
+.footer__columns {
+    display: flex;
+}
+.footer__columns a{
+    display: block;
+}
 .footer__item {}
-.footer__item-title {}
-.footer__link-yellow {}
-.footer__link-white-big {}
-.footer__link-phone {}
-.footer__link-mail {}
-.footer__address {}
-.footer__metro {}
-.footer__metro-red {}
-.footer__metro-white {}
-.footer__metro-green {}
-.footer__map {}
-.footer__bottom {}
-.footer__block {}
-.footer__block-copy {}
-.footer__copy {}
-.footer__social-box {}
-.footer__social-link {}
-.footer__block-help {}
-.footer__link-help {}
-.footer__block-pay {}
+.footer__item-school{
+    margin:  0px 20px 0px 0px;
+}
+.footer__item-learn{
+    margin: 0 20px;
+}
+.footer__item-contacts{
+    margin: 0 0 0 20px;
+}
+.footer__item-title {
+    font-family: 'GothamPro-Bold';
+    font-size: 12px;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.footer__link-yellow {
+    color: #ffc900;
+    font-family: 'GothamPro-Bold';
+    font-size: 12px;
+    padding: 6px 0;
+    
+    letter-spacing: 0.9;
+
+}
+.footer__link-white-big {
+    padding: 15px 0 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.9;
+    font-family: 'GothamPro-Bold';
+    font-size: 12px;
+}
+.footer__link-phone {
+    color: #fff;
+    font-family: 'GothamPro';
+    font-size: 12px;
+    padding: 6px 0;
+}
+.footer__link-mail {
+    color: #ffc900;
+    font-size: 12px;
+    font-family: 'GothamPro-Bold';
+    padding: 6px 0;
+}
+.footer__address {
+    font-family: 'GothamPro';
+    font-size: 12px;
+    padding: 6px 0;
+    color: #fff;
+}
+.footer__metro {
+    font-family: 'GothamPro';
+    font-size: 12px;
+    padding: 6px 0 6px 22px;
+    
+    color: rgba(255, 255, 255, .45);
+    letter-spacing: 1;
+}
+.footer__metro-red {
+    background: url(../img/firsrPage/footer/metro-red.svg) no-repeat left ;
+}
+.footer__metro-white {
+    background: url(../img/firsrPage/footer/metro-white.svg) no-repeat left ;
+}
+.footer__metro-green {
+    background: url(../img/firsrPage/footer/metro-green.svg) no-repeat left ;
+}
+.footer__map {
+    max-width: 480px;
+    width: 100%;
+    min-height: 360px;
+}
+.footer__map iframe{
+    width: 100%;
+    height: 100%;
+}
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 0px 0px;
+}
+.footer__block {
+    flex: 0 1 33.333%;
+}
+.footer__block-copy {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__copy {
+    color: hsla(0,0%,100%,.45);
+    font-family: 'GothamPro';
+    font-size: 12px;
+}
+.footer__social-box {
+    max-width: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__social-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: hsla(0,0%,100%,.45) 2px solid;
+}
+.footer__block-help {
+    text-align: center;
+}
+.footer__link-help {
+    color: #ffc900;
+    font-size: 12px;
+    font-family: 'GothamPro';
+}
+.footer__block-pay {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer__block-pay span {
+    color: hsla(0,0%,100%,.45);
+    font-family: 'GothamPro';
+    font-size: 12px;
+    margin:  0px 36px 0px 0px;
+}
+.footer__block-pay-img{
+
+}
 /*===========================================================================================================*/
 
 
