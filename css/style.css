@@ -56,6 +56,7 @@ a{
 body{
     font-size: 16px;
     font-family: 'GothamPro';
+    color: #000;
 }
 .wrapper {
     max-width: 1240px;
@@ -68,16 +69,87 @@ content {
 }
 .header {
     background-color: #ffc900;
-    /* height: 56px; */
+    height: 56px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1), 0 0.6rem 0.6rem rgba(0,0,0,.1);
+    position: sticky;
+    /* position: fixed; */
+    /* width: 100%; */
+    left: 0;
+    top: 0;
 }
 
 .header__inner {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
 }
-.header__nav {}
 .header__menu {
     display: flex;
 }
-.header__link {}
-.header__lesson {}
-.header__lesson-link {}
+.header__menu li{
+    padding: 0 19px;
+}
+.header__link {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000;
+    font-family: 'GothamPro-Bold';
+    letter-spacing: 1px;
+}
+.header__lesson-img{
+    position: absolute;
+    left: -6px;
+    top: 7px;
+}
+.header__lesson {
+    max-width: 330px;
+    position: relative;
+    padding: 19px 19px 19px 60px;
+    background-color: rgba(255, 239, 170, .5);
+    height: 56px;
+}
+.header__lesson-link {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000;
+    font-family: 'GothamPro-Bold';
+    letter-spacing: 1px;
+}
+
+/*===========================================================================================================*/
+
+
+.footer {}
+.wrapper {}
+.footer__inner {}
+.footer__top {}
+.footer__columns {}
+.footer__item {}
+.footer__item-title {}
+.footer__link-yellow {}
+.footer__link-white-big {}
+.footer__link-phone {}
+.footer__link-mail {}
+.footer__address {}
+.footer__metro {}
+.footer__metro-red {}
+.footer__metro-white {}
+.footer__metro-green {}
+.footer__map {}
+.footer__bottom {}
+.footer__block {}
+.footer__block-copy {}
+.footer__copy {}
+.footer__social-box {}
+.footer__social-link {}
+.footer__block-help {}
+.footer__link-help {}
+.footer__block-pay {}
+/*===========================================================================================================*/
+
+
+/*===========================================================================================================*/
+
+
+/*===========================================================================================================*/
