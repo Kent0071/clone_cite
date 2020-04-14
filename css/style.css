@@ -33,6 +33,13 @@
 	font-weight: normal;
 	font-style: italic;
 }
+@font-face {
+	font-family: 'FedraSerifProANormal';
+	src: url('../fonts/FedraSerifProANormal.eot');
+	src: local('☺'), url('../fonts/FedraSerifProANormal.woff') format('woff'), url('../fonts/FedraSerifProANormal.ttf') format('truetype'), url('../fonts/FedraSerifProANormal.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 
 *,
@@ -73,8 +80,7 @@ body{
     height: 56px;
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1), 0 0.6rem 0.6rem rgba(0,0,0,.1);
     position: sticky;
-    /* position: fixed; */
-    /* width: 100%; */
+    z-index: 5;
     left: 0;
     top: 0;
 }
@@ -124,6 +130,146 @@ body{
 /*===========================================================================================================*/
 
 
+.first-screen {
+    padding: 30px 0px 0px 0px;
+    position: relative;
+}
+.header__block {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    max-width: 200px;
+}
+.header__logo img {
+    max-width: 100%;
+}
+.header__contacts {
+    display: flex;
+}
+.header__contacts-item {
+    display: flex;
+    margin:  10px 0px 0px 60px;
+    
+}
+.header__contacts-content {
+    padding: 0px 0px 0px 20px;
+}
+.header__contacts-link {
+    display: block;
+    font-family: 'GothamPro-Medium';
+    font-size: 24px;
+    color: #fff;
+    line-height: 1.17;
+}
+.header__contacts-link span{
+    color: rgba(255, 255, 255, .7);
+}
+.header__contacts-text {
+    font-family: 'GothamPro-Medium';
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.57;
+}
+
+.first-screen__title {
+    margin:  0px 0px 70px 0px;
+}
+.first-screen__title-text {
+    font-family: 'FedraSerifProANormal';
+    font-size: 40px;
+    font-weight: 400;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0 15px;
+    border-radius: 8px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+.first-screen__title-text span{
+    color: #f02422;
+}
+.first-screen__title-link {
+    font-family: 'GothamPro-Medium';
+    font-size: 26px;
+    color: #fff;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+}
+
+.first-screen__dots {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.first-screen__dots-item {
+    position: relative;
+    flex: 0 1 250px;
+    height: 250px;
+    text-align: center;
+    color: #fff;
+    padding: 75px 0px 0px 0px;
+}
+.first-screen__dots-item::before{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 25px;
+    top: 9px;
+    background-color: rgba(15,5,1,.7);
+    border-radius: 50%;
+    z-index: -1;
+}
+.first-screen__dots-item.first-screen__dots-item_bg-other:before {
+    background-color: rgba(255,201,0,.4);
+}
+.first-screen__dots-number {
+    font-family: 'GothamPro-Medium';
+    font-size: 60px;
+    margin:  0px 0px 20px 0px;
+}
+.first-screen__dots-number.first-screen__dots-number_red {
+    color: #f02422;
+}
+.first-screen__dots-text {
+    font-family: 'FedraSerifProAMedium';
+    font-size: 24px;
+    line-height: 1.33;
+}
+.first-screen__dots-text.first-screen__dots-text_black {
+    color: #000;
+}
+.first-screen__arrow{
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+}
+.first-screen__ball{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;
+}
+.first-screen__ball:before{
+    content: '';
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    background-color: #fff7d4;
+    left: -180px;
+    top: -200px;
+    z-index: -3;
+}
+
+
+/*===========================================================================================================*/
+
+
 .footer {
     background-color: #1d1d1f;
 }
@@ -142,7 +288,6 @@ body{
 .footer__columns a{
     display: block;
 }
-.footer__item {}
 .footer__item-school{
     margin:  0px 20px 0px 0px;
 }
@@ -165,9 +310,7 @@ body{
     font-family: 'GothamPro-Bold';
     font-size: 12px;
     padding: 6px 0;
-    
     letter-spacing: 0.9;
-
 }
 .footer__link-white-big {
     padding: 15px 0 30px;
@@ -198,8 +341,7 @@ body{
 .footer__metro {
     font-family: 'GothamPro';
     font-size: 12px;
-    padding: 6px 0 6px 22px;
-    
+    padding: 6px 0 6px 22px;   
     color: rgba(255, 255, 255, .45);
     letter-spacing: 1;
 }
@@ -275,9 +417,7 @@ body{
     font-size: 12px;
     margin:  0px 36px 0px 0px;
 }
-.footer__block-pay-img{
 
-}
 /*===========================================================================================================*/
 
 
