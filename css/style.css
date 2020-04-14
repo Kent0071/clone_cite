@@ -82,7 +82,44 @@ body{
 .title {
     font-size: 30px;
     font-family: 'FedraSerifProAMedium';
+    position: relative;
 }
+.title.title-sup {
+    position: relative;
+    display: inline-block;
+}
+
+.title__text-sup {
+    position: absolute;
+    right: -80px;
+    top: -43px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'FedraSerifProAMediumItalic';
+    height: 35px;
+    padding: 10px 15px 0px 15px;
+    color: #ffefaa;
+    background-color: #5a5a5a;
+    border-radius: 5px;
+}
+.title__text-sup::after{
+    content: "";
+    top: 34px;
+    left: 25%;
+    right: 75%;
+    position: absolute;
+    display: block;
+    width: 14px;
+    height: 7.5px;
+    background-color: transparent;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 7px 3.5px 0 3px #5a5a5a;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+
+
 .title span{
     color: #f02422;
 }
@@ -149,10 +186,7 @@ body{
     font-family: 'GothamPro-Bold';
     letter-spacing: 1px;
 }
-
 /*===========================================================================================================*/
-
-
 .first-screen {
     padding: 30px 0px 0px 0px;
     position: relative;
@@ -173,8 +207,7 @@ body{
 }
 .header__contacts-item {
     display: flex;
-    margin:  10px 0px 0px 60px;
-    
+    margin:  10px 0px 0px 60px; 
 }
 .header__contacts-content {
     padding: 0px 0px 0px 20px;
@@ -195,7 +228,6 @@ body{
     color: #fff;
     line-height: 1.57;
 }
-
 .first-screen__title {
     margin:  0px 0px 70px 0px;
 }
@@ -223,7 +255,6 @@ body{
     display: block;
     text-align: center;
 }
-
 .first-screen__dots {
     max-width: 1140px;
     margin: 0 auto;
@@ -289,8 +320,6 @@ body{
     top: -200px;
     z-index: -3;
 }
-
-
 /*===========================================================================================================*/
 .second-section {
     padding: 140px 0px 0px 0px;
@@ -339,8 +368,88 @@ body{
     top: 0;
 }
 /*===========================================================================================================*/
-
-
+.forms {}
+.forms__row {
+   
+}
+.forms__form {
+    max-width: 1240px;
+    min-height: 230px;
+    padding: 30px 40px;
+    background: url(../img/firsrPage/form_section/form_bg.png) no-repeat;
+    background-size: cover;
+    box-shadow: 0 0.4rem 1.6rem 0 rgba(41,41,41,.15);
+    border-radius: 12px;
+    margin: -100px 0px 115px 0px;
+    position: relative;
+    z-index: 2;
+}
+.forms__form-title {
+    font-family: 'GothamProMedium';
+    font-size: 24px;
+    text-align: center;
+    margin:  0px 0px 30px 0px;
+}
+.forms__form-title span{
+    color: #f02422;
+}
+.form__items {}
+.form__item {
+    max-width: 360px;
+    width: 100%;
+    display: inline-block;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+.form__item::placeholder{
+    color: rgba(0, 0, 0, .2);
+    font-family: 'GothamProMedium';
+    font-size: 16px;
+}
+.form__item.form__item-text{
+padding: 0px 0px 0px 20px;
+}
+.form__item:nth-child(1){
+    margin:  0px 10px 0px 20px;
+}
+.form__item:nth-child(2){
+    margin:  0px 10px;
+}
+.form__item:nth-child(3){
+    margin:  0px 0px 0px 10px;
+}
+.form__item.form__item-button {
+    background-color: #f02422;
+    box-shadow: 0 0.4rem 1.6rem 0 #fa5932;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'GothamPro-Bold';
+    font-size: 14px;
+}
+.form__text {
+    text-align: right;
+    margin: 25px 70px 0px 0px;
+}
+.form__text-text {
+    font-family: 'GothamPro';
+    font-size: 12px;
+}
+.form_link {
+    font-family: 'GothamPro-Bold';
+    font-size: 12px;
+    color: #f02422;
+    line-height: 1.5;
+    display: block;
+    margin: 4px 0px 0px 0px;
+    padding: 0 5px 0 0;
+}
+/*===========================================================================================================*/
+.poster__title{
+    text-align: center;
+    margin:  0px 0px 65px 0px;
+}
 
 /*===========================================================================================================*/
 
