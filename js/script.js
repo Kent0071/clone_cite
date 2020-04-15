@@ -19,5 +19,26 @@ $(document).ready(function(){
             }
           ]
     });
+
+      $('.about__row').slick({
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        infinite: true,
+        dots: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 9000,
+        centerPadding: '20px',
+        responsive: [
+            {
+              breakpoint: 775,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true
+              }
+            }
+          ]
+    });
   });
 
