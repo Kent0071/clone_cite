@@ -606,6 +606,45 @@ padding: 0px 0px 0px 20px;
     text-align: center;
 }
 /*===========================================================================================================*/
+.teachers {
+    padding: 105px 0 40px 0;
+}
+.teachers__title {
+    text-align: center;
+    margin:  0px 0px 45px 0px;
+}
+.title__text-sup.teachers-title__text-sup {
+    right: -60px;
+
+}
+.teachers__row {
+    display: flex;
+    margin: 0 0px 80px 0px;
+}
+.teachers__column {
+    flex: 0 1 25%;
+    text-align: center;
+    padding: 0 38px 0 38px;
+}
+.teachers__name {
+    font-family: 'FedraSerifProAMedium';
+    font-size: 24px;
+    margin: 30px 0px 0px 0px;
+}
+.teachers__country {
+    font-family: 'GothamProMedium';
+    font-size: 14px;
+    margin: 10px 0px 0px 0px;
+}
+.teachers__text {
+    font-family: 'GothamPro';
+    font-size: 14px;
+    line-height: 1.71;
+    margin-top: 25px;
+}
+.teachers__btn-more {
+    text-align: center;
+}
 
 /*===========================================================================================================*/
 
