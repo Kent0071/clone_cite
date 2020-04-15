@@ -72,8 +72,9 @@ body{
     color: #000;
 }
 .wrapper {
-    max-width: 1240px;
+    max-width: 1270px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .content {
     max-width: 1440px;
@@ -118,14 +119,12 @@ body{
     transform: rotate(-45deg);
     z-index: 1;
 }
-
-
 .title span{
     color: #f02422;
 }
 .btn {
     display: inline-block;
-    padding: 18px 65px 0 30px;
+    padding: 18px 65px 0 35px;
     font-family: 'GothamPro-Bold';
     font-size: 14px;
     color: #000;
@@ -133,13 +132,13 @@ body{
     height: 56px;
     border: 2px solid rgba(0,0,0,.15);
     border-radius: 8px;
-    background: url(../img/firsrPage/section_2/arrow_right_red.svg) no-repeat 313px center;
+    background: url(../img/firsrPage/section_2/arrow_right_red.svg) no-repeat center right 37px;
 }
 /*======================================================================================================================*/
 .header {
     background-color: #ffc900;
     height: 56px;
-    box-shadow: 0 1rem 2rem rgba(0,0,0,.1), 0 0.6rem 0.6rem rgba(0,0,0,.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1), 0 6px 6px rgba(0,0,0,.1);
     position: sticky;
     z-index: 5;
     left: 0;
@@ -239,9 +238,12 @@ body{
     text-align: center;
     margin: 0 auto;
     background-color: #fff;
-    padding: 0 15px;
+    padding: 3px 15px 12px 15px;
     border-radius: 8px;
     margin-top: -10px;
+}
+.first-screen__title-text-second-row{
+    max-width: 550px;
     margin-bottom: 25px;
 }
 .first-screen__title-text span{
@@ -368,9 +370,8 @@ body{
     top: 0;
 }
 /*===========================================================================================================*/
-.forms {}
-.forms__row {
-   
+.forms {
+    margin: -100px 0px 115px 0px;
 }
 .forms__form {
     max-width: 1240px;
@@ -380,7 +381,7 @@ body{
     background-size: cover;
     box-shadow: 0 0.4rem 1.6rem 0 rgba(41,41,41,.15);
     border-radius: 12px;
-    margin: -100px 0px 115px 0px;
+    /* margin: -100px 0px 115px 0px; */
     position: relative;
     z-index: 2;
 }
@@ -393,7 +394,6 @@ body{
 .forms__form-title span{
     color: #f02422;
 }
-.form__items {}
 .form__item {
     max-width: 360px;
     width: 100%;
@@ -446,11 +446,75 @@ padding: 0px 0px 0px 20px;
     padding: 0 5px 0 0;
 }
 /*===========================================================================================================*/
+.poster {
+    padding: 0px 0px 60px 0px;
+}
 .poster__title{
     text-align: center;
     margin:  0px 0px 65px 0px;
 }
+.poster__row {
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto 50px;
+}
+.poster__column {
+    flex: 0 1 388px;
+    border: 1px solid rgba(0,0,0,.06);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 16.5px;
+    display: flex;
+}
+.poster__item {
+    display: flex;
+}
+.poster__link-wrap {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+.poster__img {
+    max-width: 388px;
+} 
+.poster__img img{
+    width: 100%;
+    height: 205px;
+    display: inline-block;
+}
+.poster__item-title{
+    font-family: 'FedraSerifProAMedium';
+    font-size: 24px;
+    margin: 20px 0 15px;
+    padding: 0 40px;
+    line-height: 30px;
+}
+.poster__text {
+    flex: 1 1 auto;
+    font-family: 'GothamPro';
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 40px;
+    margin:  0px 0px 18px 0px;
+}
 
+.btn.btn-poster {
+    background: url(../img/firsrPage/section_2/arrow_right_red.svg) no-repeat center left 150px;
+    border: none;
+} 
+.btn-poster {
+    padding: 18px 40px 0 40px;
+    line-height: 21px;
+}
+.poster__line{
+    margin: 0 40px;
+    height: 1px;
+    background-color: rgba(0,0,0,.1);
+}
+
+.poster__btn-more {
+    text-align: center;
+}
 /*===========================================================================================================*/
 
 
