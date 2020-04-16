@@ -192,6 +192,24 @@ body{
     position: relative;
     margin-bottom: 65px;
 }
+.header-body{
+    padding: 35px 0px 50px 0px;
+    height: 350px;
+    background-color: #fffae5;
+    background-image: url(../img/headerBody/bg_left.svg),url(../img/headerBody/bg_right.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom, right bottom;
+}
+.header-body__title{
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
+.title.header-body-title{
+    font-size: 40px;
+}
+.title__text-sup.header-body-title__text-sup{
+    right: -55px;
+}
 .header__block {
     display: flex;
     justify-content: space-between;
@@ -218,6 +236,13 @@ body{
     font-size: 24px;
     color: #fff;
     line-height: 1.17;
+}
+.header__contacts-link.header-body__black span{
+    color: rgba(0, 0, 0, .7);
+}
+.header__contacts-link.header-body__black,
+.header__contacts-text.header-body__black{
+    color: #000;
 }
 .header__contacts-link span{
     color: rgba(255, 255, 255, .7);
