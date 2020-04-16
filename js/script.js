@@ -27,8 +27,7 @@ $(document).ready(function(){
         dots: true,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 9000,
-        centerPadding: '20px',
+        autoplaySpeed: 4000,
         responsive: [
             {
               breakpoint: 775,
