@@ -817,6 +817,93 @@ padding: 0px 0px 0px 20px;
     right: -65px;
 }
 
+.contacts-form {
+    padding: 60px 0px 0px 0px;
+}
+.contacts-form__row {}
+.contacts-form__form {
+    padding: 30px 40px;
+    background: url(../img/contactsPage/contacts_form/form_bg.1298ee2e.png) no-repeat center;
+    background-size: cover;
+    border-radius: 12px;
+    min-height: 430px;
+}
+.contacts-form__title {
+    font-family: 'GothamProMedium';
+    font-size: 24px;
+    text-align: center;
+    margin:  0px 0px 35px 0px;
+}
+.contacts-form__title span{
+    color: #f02422;
+}
+.contacts-form__items{
+    margin: 0 auto;
+    max-width: 760px;
+}
+.contacts-form__items input,
+.contacts-form__items textarea{
+    outline: none;
+    border: none;
+    margin: 30px 0px 0px 0px;
+    font-family: 'GothamPro';
+    font-size: 16px;
+}
+.contacts-form__item::placeholder{
+    color: rgba(0, 0, 0, .2);
+    font-family: 'GothamProMedium';
+    font-size: 16px;
+}
+.contacts-form__item {
+    max-width: 360px;
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    padding: 1px 20px;
+}
+.contacts-form__item:first-child{
+    margin:  0px 35px 0px 0px;
+}
+.contacts-form__item:nth-child(2){
+    margin:  0px 0px 0px 0px;
+}
+.contacts-form__textarea{
+    display: block;
+    max-width: 760px;
+    width: 100%;
+    height: 96px;
+    resize: none;
+    border-radius: 8px;
+    padding: 13px 20px 0px 20px;
+}
+.contacts-form__textarea::placeholder{
+    color: rgba(0, 0, 0, .2);
+    font-family: 'GothamProMedium';
+    font-size: 16px;
+}
+.contacts-form__item.contacts-form__item-button {
+    display: block;
+    margin: 30px auto 0px auto;
+    box-shadow: 0 4px 16px 0 #fa5932;
+    background-color: #f02422;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'GothamPro-Bold';
+}
+.contacts-form__text {
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+}
+.contacts-form__text-text {
+    font-family: 'GothamPro';
+    font-size: 12px;
+}
+.contacts-form_link {
+    color: #f02422;
+    font-size: 12px;
+    font-family: 'GothamPro-Bold';
+}
 /*===========================================================================================================*/
 
 
