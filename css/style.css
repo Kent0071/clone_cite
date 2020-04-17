@@ -556,15 +556,16 @@ padding: 0px 0px 0px 20px;
 }
 .courses__column {
     flex: 0 1 33.333%;
-    padding: 40px 40px 5px 40px;
     margin: 0 17.5px 0 17.5px;
     background-color: #fff;
-    border: 1px solid rgba(0,0,0,.06);
-    border-radius: 12px;
     display: flex;
 }
 .courses__item {
     display: flex;
+    border: 1px solid rgba(0,0,0,.06);
+    border-radius: 12px;
+    padding: 40px 40px 5px 40px;
+    
 }
 .courses__link {
     color: #000;
@@ -579,6 +580,18 @@ padding: 0px 0px 0px 20px;
 }
 .courses__item-img img:nth-child(3){
     margin: 0 0 0 -25px;
+}
+.courses__item-img img.calendar-icon{
+    margin: 0 0 -15px -25px;
+}
+.courses__item-img img.fire-icon{
+    margin: 0 0 -4px -25px;
+}
+.courses__item-img img.children-icon{
+    margin: 0 0 -4px -25px;
+}
+.courses__item-img img.cge-icon{
+    margin: 0 0 -12px -25px;
 }
 .courses__item-title{
     margin: 12px 0 0 0;
@@ -607,11 +620,13 @@ padding: 0px 0px 0px 20px;
     flex: 1 1 auto;
     padding: 0px 0px 70px 0px;
 }
+
 .courses__item-line {
     height: 1px;
     background-color: rgba(0,0,0,.1);
 }
 .courses__item-price {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -994,8 +1009,42 @@ padding: 0px 0px 0px 20px;
     padding: 0px 0px 0px 70px;
 }
 /*===========================================================================================================*/
+.all-courses{
 
-
+}
+.title__text-sup.coursos-title__text-sup{
+    right: -52px;
+}
+.all-courses__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.all-courses__row .courses__column {
+    padding: 0 17.5px 0 17.5px;
+    margin: 35px 0;
+}
+.all-courses__row .courses__column .courses__item-info{
+    padding: 0px 0px 40px 0px;
+}
+.all-courses__row .courses__column .courses__item-price{
+    padding: 5px 0px 0px 0px;
+}
+.all-courses__row .courses__column .courses__item-info.courses__item-info_70{
+    padding: 0px 0px 70px 0px;
+}
+.courses__item-sale{
+    font-size: 12px;
+    font-family: 'GothamPro-Bold';
+    display: inline-block;
+    color: #000;
+    background: #ffc900;
+    text-transform: uppercase;
+    border-radius: 3px;
+    position: absolute;
+    top: -14px;
+    padding: 6px 10px;
+}
 
 /*===========================================================================================================*/
 
