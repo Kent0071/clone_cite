@@ -194,7 +194,7 @@ body{
 }
 .header-body{
     padding: 35px 0px 50px 0px;
-    height: 350px;
+    min-height: 350px;
     background-color: #fffae5;
     background-image: url(../img/headerBody/bg_left.svg),url(../img/headerBody/bg_right.svg);
     background-repeat: no-repeat;
