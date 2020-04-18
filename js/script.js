@@ -19,7 +19,7 @@ $(document).ready(function(){
             }
           ]
     });
-
+    
       $('.about__row').slick({
         slidesToShow: 5,
         slidesToScroll: 5,
@@ -39,5 +39,25 @@ $(document).ready(function(){
             }
           ]
     });
+
+    $('.description__slider-row').slick({
+      slidesToShow: 5,
+      slidesToScroll: 5,
+      infinite: true,
+      dots: true,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      responsive: [
+          {
+            breakpoint: 775,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true
+            }
+          }
+        ]
+  });
   });
 
