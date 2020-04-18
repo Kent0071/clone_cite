@@ -1219,13 +1219,15 @@ padding: 0px 0px 0px 20px;
     right: -55px;
 }
 .forms.dele-forms{
-    margin: 0px 0px 100px 0px;
+    margin: 100px 0px 100px 0px;
+}
+.dele-wrap{
+    margin: 0 auto ;
+    max-width: 840px;
 }
 .dele__block-text {
     font-family: 'GothamPro';
     font-size: 16px;
-    margin: 0 auto 0 auto;
-    max-width: 840px;
     line-height: 1.5;
 }
 .dele__block-text-first{
@@ -1348,8 +1350,158 @@ padding: 0px 0px 0px 20px;
 }
 
 /*===========================================================================================================*/
-
-
+/*===========================================================================================================*/
+/*это пробная версия таблици. В этой части ее верхняя шапка*/
+.table {}
+.table-first {}
+.table__body {}
+.table__caption-row {
+    display: flex;
+    height: 50px;
+    border-radius: 12px 12px 0 0;
+    background-color: #ffefaa;
+    align-items: center;
+    border-bottom: 4px solid #ccc0a9;
+}
+.table__caption-items {
+    font-family: 'GothamPro-Bold';
+    font-size: 12px;
+    text-transform: uppercase;
+    margin:  0px 0px 0px 40px;
+    width: 100%;
+}
+.table__caption-items:nth-child(1){
+    max-width: 120px;
+}
+.table__caption-items:nth-child(2){
+    max-width: 160px;
+}
+.table__caption-items:nth-child(3){
+    max-width: 160px;
+}
+.table__caption-items:nth-child(4){
+    max-width: 100px;
+}
+.table__caption-items:nth-child(5){
+    max-width: 200px;
+}
+.table__caption-items:nth-child(6){
+    max-width: 36px;
+}
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+/* в этой части тело таблици и ее первая линия*/
+.table__inner {
+    box-shadow: 0 4px 16px 0 rgba(41,41,41,.15);
+    border-radius: 0 0 8px 8px;
+    padding: 0 40px;
+}
+.table__inner-row {
+    display: flex;
+    width: 100%;
+}
+.table__inner-level {
+    max-width: 120px;
+    width: 100%;
+    font-family: 'GothamProMedium';
+    font-size: 14px;
+    padding: 22px 0px 0px 0px;
+}
+.table__inner-items-container {
+    width: 100%;
+}
+.table__inner-items-row {
+    display: flex;
+    max-width: 1040px;
+    padding: 22px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.table__inner-item-first {
+    max-width: 240px;
+    width: 100%;
+    display: flex;
+    padding: 0px 0px 0px 40px;
+}
+.table__inner-item-first-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.table__inner-item-first-img img{
+    max-width: 100%;
+    height: 100%;
+}
+.table__inner-item-first-name {
+    font-size: 14px;
+    margin:  0px 0px 0px 20px;
+}
+.table__inner-item-first-text {
+    font-size: 12px;
+    display: block;
+    margin: 4px 0px 0px 0px;
+}
+.table__inner-item-first-text-transp {
+    color: #ada391;
+}
+.table__inner-item-second {
+    max-width: 200px;
+    width: 100%;
+}
+.table__inner-item-second-time {
+    font-size: 14px;
+    margin:  0px 0px 4px 0px;
+}
+.table__inner-item-second-day {
+    font-size: 12px;
+}
+.table__inner-item-third {
+    max-width: 140px;
+    width: 100%;
+}
+.table__inner-item-third-date {
+    font-size: 14px;
+}
+.table__inner-item-fourth {
+    max-width: 200px;
+    width: 100%;
+}
+.table__inner-item-fourth-duration {
+    padding: 0px 60px 0px 0px;
+    font-size: 12px;
+}
+.table__inner-item-fifth {
+    /* max-width: 50px;
+    width: 100%; */
+}
+.table__inner-item-fifth-price {
+    font-family: 'GothamProMedium';
+    font-size: 14px;
+    color: #f02422;
+    line-height: 22px;
+    margin:  0px 0px 0px 42px;
+}
+.table__inner-item-sixth {
+    /* max-width: 180px;
+    width: 100%;*/
+} 
+.table__inner-item-sixth-box {
+   
+}
+.table__inner-item-sixth-link {
+    font-family: 'GothamPro-Bold';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+    display: inline-block;
+    line-height: 13px;
+    padding: 0px 30px 0px 0px;
+    margin: 0 0 0 60px;
+    background: url(../img/delePage/arrow.svg) no-repeat right center;
+}
+/*===========================================================================================================*/
+/*===========================================================================================================*/
 /*===========================================================================================================*/
 .footer {
     background-color: #1d1d1f;
