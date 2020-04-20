@@ -19,6 +19,7 @@ $(document).ready(function(){
             }
           ]
     });
+
     
       $('.about__row').slick({
         slidesToShow: 5,
