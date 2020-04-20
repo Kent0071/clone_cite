@@ -1360,7 +1360,12 @@ padding: 0px 0px 0px 20px;
 /*===========================================================================================================*/
 /*это пробная версия таблици. В этой части ее верхняя шапка*/
 .table {}
-.table-first {}
+.table-first {
+    margin: 30px 0px 90px 0px;
+}
+.table-second{
+    
+}
 .table__body {}
 .table__caption-row {
     display: flex;
@@ -1407,6 +1412,10 @@ padding: 0px 0px 0px 20px;
 .table__inner-row {
     display: flex;
     width: 100%;
+    border-bottom: 4px solid #e5e5e5;
+}
+.table__inner-row:last-child{
+    border-bottom: none;
 }
 .table__inner-level {
     max-width: 120px;
@@ -1423,6 +1432,9 @@ padding: 0px 0px 0px 20px;
     max-width: 1040px;
     padding: 22px 0px;
     border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.table__inner-items-row:last-child{
+    border-bottom: none;
 }
 .table__inner-item-first {
     max-width: 240px;
@@ -1443,6 +1455,11 @@ padding: 0px 0px 0px 20px;
 .table__inner-item-first-name {
     font-size: 14px;
     margin:  0px 0px 0px 20px;
+}
+.table__inner-item-first-name-red{
+    color: #f02422;
+    font-family: 'GothamProMedium';
+    font-size: 14px;
 }
 .table__inner-item-first-text {
     font-size: 12px;
@@ -1479,8 +1496,9 @@ padding: 0px 0px 0px 20px;
     font-size: 12px;
 }
 .table__inner-item-fifth {
-    /* max-width: 50px;
-    width: 100%; */
+    display: flex;
+    align-items: center;
+    height: 40px;
 }
 .table__inner-item-fifth-price {
     font-family: 'GothamProMedium';
@@ -1488,13 +1506,37 @@ padding: 0px 0px 0px 20px;
     color: #f02422;
     line-height: 22px;
     margin:  0px 0px 0px 42px;
+    position: relative;
+}
+.table__inner-item-fifth-price-origin{
+    text-decoration: line-through;
+    font-size: 14px;
+    font-family: 'GothamPro';
+    color: #000;
+    display: block;
+}
+.table__inner-item-fifth-price-sale{
+    font-family: 'GothamPro';
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: -100px;
+    top: 1px;
+    width: 85px;
+    height: 20px;
+    border-radius: 2px;
+    background: #ffc900;
+    text-align: center;
+    color: #000;
 }
 .table__inner-item-sixth {
-    /* max-width: 180px;
-    width: 100%;*/
+    height: 40px;
 } 
 .table__inner-item-sixth-box {
-   
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 .table__inner-item-sixth-link {
     font-family: 'GothamPro-Bold';
