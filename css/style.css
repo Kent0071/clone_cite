@@ -1071,6 +1071,13 @@ padding: 0px 0px 0px 20px;
     text-align: center;
     line-height: 1.56;
 }
+.learn-text__wrap{
+    margin: 0 auto;
+    max-width: 860px;
+}
+.learn-text__wrap.learn-text__wrap-first{
+    max-width: 830px;
+}
 .learn-text__second{
     padding: 10px 0;
 }
