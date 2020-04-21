@@ -160,7 +160,7 @@
         justify-content: center;
     }
     .poster__column {
-        margin: 0 0 20px 0;
+        margin: 0 15px 20px 0;
     }
 }
 
@@ -387,6 +387,96 @@
     }
     .description__slider-row .about__slide-item{
         margin: 0 40px;
+    }
+    .forms__form {
+        padding: 20px;
+        text-align: center;
+    }
+    .forms__form-title {
+        font-size: 16px;
+        margin:  0px 0px 10px 0px;
+    }
+    .form__item {
+        max-width: 240px;
+        height: 40px;
+        display: block;
+    }
+    .form__item:nth-child(1) {
+        margin: 0px auto 10px ;
+    }
+    .form__item:nth-child(2) {
+        margin: 0px auto;
+    }
+    .form__item:nth-child(3) {
+        margin: 10px auto 0px;
+    }
+    .form__item::placeholder{
+        font-size: 14px;
+    }
+    .form__text {
+        margin: 10px 0px 0px 0px;
+    }
+    .poster__item-title {
+        font-size: 16px;
+        margin: 15px 0 10px;
+        padding: 0 20px;
+        line-height: 24px;
+    }
+    .poster__text {
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 0 20px;
+        margin: 0px 0px 10px 0px;
+    }
+    .poster.poster-how-to-learn {
+        padding: 0px 0px 30px 0px;
+    }
+    .poster__row{
+        margin: 0 auto;
+    }
+    .learn__photo {
+        margin: 20px auto 30px;
+        flex-wrap: wrap;
+    }
+    .learn__photo-item {
+        margin:  0px 0px 20px 0px;
+    }
+    .learn-text__first {
+        margin-top: 40px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .learn__link {
+        font-size: 14px;
+        line-height: 1.43;
+        padding: 20px;
+        margin: 30px auto;
+    }
+    .learn-text {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .learn-text__second {
+        padding: 5px 0;
+    }
+    .learn-text__fourth, .learn-text__fifth, .learn-text__third {
+        padding: 5px 0;
+    }
+    .learn-text__last {
+        margin: 0px auto 30px;
+    }
+    .forms.learn-form {
+        margin: 30px 0;
+    }
+    .btn-poster {
+        padding: 18px 40px 0 20px;
+    }
+    .btn.btn-poster {
+        font-size: 12px;
+        background: url(../img/firsrPage/section_2/arrow_right_red.svg) no-repeat center left 118px;
+    }
+    .poster__line {
+        margin: 0px 20px;
     }
 }
 /*768=========================================================================*/

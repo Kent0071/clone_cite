@@ -510,7 +510,12 @@ padding: 0px 0px 0px 20px;
     text-align: center;
     margin:  0px 0px 65px 0px;
 }
-.poster__row {
+.poster__row-first-page {
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto 50px;
+}
+.poster__row{
     display: flex;
     max-width: 1240px;
     margin: 0 auto 50px;
