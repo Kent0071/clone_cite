@@ -6,7 +6,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         infinite: true,
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         responsive: [
             {
@@ -81,5 +81,27 @@ $(document).ready(function(){
           }
         ]
   });
+//пробую настроить слайдер под dots
+//   $('.first-screen__dots').slick({
+//     arrows: false,
+//     dots: false,
+//     responsive: [
+//         {
+//           breakpoint: 1440,
+//           settings: "unslick", 
+//         },
+//         {
+//           breakpoint: 768,
+//           settings: {
+//             slidesToShow: 1,
+//             slidesToScroll: 1,
+//             infinite: true,
+//             arrows: false,
+//             autoplay: false,
+//             autoplaySpeed: 1000,
+//           }
+//         }
+//       ]
+// });
   });
 

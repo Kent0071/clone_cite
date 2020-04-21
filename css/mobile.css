@@ -134,6 +134,51 @@
     .form__item:nth-child(3) {
         margin: 15px 0px 0px 0px;
     }
+    .first-screen__title {
+        margin: 30px 0px 70px 0px;
+    }
+    .first-screen__ball {
+        width: 730px;
+        height: 560px;
+    }
+    .first-screen__ball img{
+        width: 100%;
+        height: 100%;
+    }
+    .first-screen__ball:before {
+        content: '';
+        width: 600px;
+        height: 600px;
+    }
+    .first-screen__dots {
+        max-width: 740px;
+    }
+    .first-screen__dots-item {
+        max-width: 180px;
+        height: 180px;
+        padding: 40px 0px 0px 0px;
+    }
+    .first-screen__dots-item::before {
+        content: '';
+        width: 180px;
+        height: 180px;
+        left: 0;
+        top: 0;
+    }
+    .first-screen__dots-number {
+        font-size: 36px;
+        margin: 0px 0px 15px 0px;
+    }
+    .first-screen__dots-text {
+        font-size: 16px;
+    }
+    .first-screen__arrow {
+        display: none;
+    }
+    .second-section {
+        padding: 30px 0px 0px 0px;
+        height: 480px;
+    }
 }
 @media screen and (max-width: 970px){
     .footer__bottom {
@@ -553,6 +598,107 @@
     .table-third {
         margin: 30px 0px 40px 0px;
     }
+    .first-screen__title-text {
+        font-size: 22px;
+        max-width: 440px;
+    }
+    .first-screen__title-text.first-screen__title-text-second-row{
+        max-width: 300px;
+    }
+    .first-screen__title-link {
+        font-size: 14px;
+    }
+    .first-screen__ball {
+      display: none;
+    }
+    .first-screen {
+        background: url(..//img/firsrPage/first-screen/first-screen_bg_mobile.png) no-repeat center center;
+        background-size: cover;
+        padding: 15px 0px 15px 0px;
+        margin-bottom: 0;
+    }
+    .first-screen__dots-item {
+        z-index: 1;
+    }
+    .first-screen__dots-item::before {
+        content: '';
+        z-index: -1;
+    }
+    .first-screen__dots-number.first-screen__dots-number_red {
+        color: #fff;
+    }
+    .first-screen__dots-text.first-screen__dots-text_black {
+        color: #fff;
+    }
+    .first-screen__dots-item.first-screen__dots-item_bg-other:before {
+        background-color: rgba(15,5,1,.7);
+    }
+    .second-section__sale-price {
+        font-size: 36px;
+    }
+    .second-section__sale-text {
+        font-size: 14px;
+        line-height: 1,29;
+        padding: 0px 0px 0px 20px;
+    }
+    .second-section__sale-items {
+        margin: 0;
+    }
+    .second-section__sale-items:first-child {
+        margin: 0 0 15px 0;
+    }
+    .second-section__link{
+        text-align: center;
+    }
+    .second-section__btn.btn {
+        margin: 0;
+    }
+    .about {
+        padding: 60px 0 30px 0;
+        background-image: none;
+    }
+    .about__title .title{
+        font-size: 18px;
+    }
+    .about__text {
+        max-width: 480px;
+        margin: 0 auto 30px 10px;
+    }
+    .about__text-text {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .reviews__item{
+        padding: 15px 10px;
+
+    }
+    .reviews__item.slick-slide {
+        flex-direction: column;
+    }
+    .reviews__item-text {
+        padding: 0;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .reviews__item-description-img {
+        width: 52px;
+        height: 52px;
+    }
+    .reviews__item-description-name {
+        font-size: 16px;
+        margin: 0px 0px 7.5px 0px;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .reviews {
+        padding: 55px 0px 35px 0px;
+        background-image: none;
+        background-repeat: no-repeat;
+    }
+    .teachers {
+        padding: 60px 0 30px 0;
+    }
 }
 /*768=========================================================================*/
 @media screen and (max-width: 650px){
@@ -596,4 +742,10 @@
     .description__slider-row .about__slide-item {
         margin: 0px 40px;
     }
+}
+@media screen and (max-width: 380px){
+    .second-section__btn.btn {
+        padding: 11px 35px 0 35px;
+        background: url(../img/firsrPage/section_2/arrow_right_red.svg) no-repeat center right 9px;
+    }  
 }
