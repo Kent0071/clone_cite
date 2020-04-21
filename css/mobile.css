@@ -137,7 +137,15 @@
         flex: 0 1 50%;
     }
 }
-
+@media screen and (max-width: 950px){
+    .description__slider-row .about__slide-item {
+        margin: 0px 30px;
+    }
+}
+.description__slider-row .about__slide-item {
+    margin: 0px 30px;
+}
+/*768=========================================================================*/
 @media screen and (max-width: 768px){
     .header__lesson {
             max-width: 215px;
@@ -345,14 +353,34 @@
         font-size: 12px;
         line-height: 1.5;
     }
-    
+    .description__slider-row .about__slide-item{
+        margin: 0 40px;
+    }
 }
+/*768=========================================================================*/
 @media screen and (max-width: 650px){
     .courses__item {
         padding: 40px 10px 5px 10px;
     }
     .courses__column {
         flex: 0 1 70%;
+    }
+}
+@media screen and (max-width: 600px){
+    .description__img-box {
+        float: none;
+        margin: 0px 0px 10px 0px;
+        text-align: center;
+    }
+    .description__text-last-img-box {
+        margin: 0px 0px 0px 0px;
+        float: none;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px){
+    .description__slider-row .about__slide-item {
+        margin: 0px 80px;
     }
 }
 @media screen and (max-width: 450px){
@@ -365,5 +393,10 @@
     }
     .header-body__title.header-body__title-all-teachers{
         text-align: left;
+    }
+}
+@media screen and (max-width: 500px){
+    .description__slider-row .about__slide-item {
+        margin: 0px 40px;
     }
 }

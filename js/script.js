@@ -51,11 +51,32 @@ $(document).ready(function(){
       autoplaySpeed: 4000,
       responsive: [
           {
-            breakpoint: 775,
+            breakpoint: 1280,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 4,
+            }
+          },
+          {
+            breakpoint: 950,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            }
+          },
+          {
+            breakpoint: 500,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              infinite: true
+              dots: false,
             }
           }
         ]
