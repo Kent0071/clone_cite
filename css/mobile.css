@@ -54,7 +54,7 @@
     }
     .title.header-body-title{
         font-size: 30px;
-        margin: 30px 0 0 0;
+        margin: 50px 0 0 0;
     }
     .header__contacts-item:last-child{
         display: none;
@@ -326,12 +326,44 @@
         padding: 10px 30px 0 0;
         background: url(../img/firsrPage/section_2/arrow_right_red.svg) no-repeat top 9px right 2px;
     }
+    .all-teachers__row .teachers__column {
+        flex: 0 1 50%;
+        padding: 35px 20px 35px 20px;
+    }
+    .teachers__img img{
+        width: 105px;
+        height: 135px;
+    }
+    .teachers__name {
+        font-size: 16px;
+        margin: 15px 0px 0px 0px;
+    }
+    .teachers__country {
+        font-size: 12px;
+    }
+    .teachers__text {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    
 }
 @media screen and (max-width: 650px){
     .courses__item {
         padding: 40px 10px 5px 10px;
     }
     .courses__column {
+        flex: 0 1 70%;
+    }
+}
+@media screen and (max-width: 450px){
+    .courses__column {
         flex: 0 1 100%;
+    }
+    .all-teachers__row .teachers__column {
+        flex: 0 1 80%;
+        padding: 25px 10px 25px 10px;
+    }
+    .header-body__title.header-body__title-all-teachers{
+        text-align: left;
     }
 }
