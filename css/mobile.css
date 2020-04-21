@@ -109,6 +109,31 @@
     .courses__item-sale {
         left: 0;
     }
+    .learn__photo {
+        max-width: 720px;
+    }
+    .learn__photo-item {
+        max-width: 130px;
+        height: 130px;
+    }
+    .learn__photo-item img{
+        max-width: 100%;
+        height: 100%;
+    }
+    .forms__form {
+        max-width: 680px;
+        text-align: center;
+    }
+     .form__item:nth-child(1) {
+        margin: 0px 0px 15px 0px;
+      }   
+      .form__text {
+        text-align: center;
+        margin: 15px 0px 0px 0px;
+    }
+    .form__item:nth-child(3) {
+        margin: 15px 0px 0px 0px;
+    }
 }
 @media screen and (max-width: 970px){
     .footer__bottom {
@@ -129,6 +154,13 @@
     }
     .footer__block-help {
         text-align: right;
+    }
+    .poster__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .poster__column {
+        margin: 0 0 20px 0;
     }
 }
 

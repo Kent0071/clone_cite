@@ -432,6 +432,7 @@ body{
 }
 .forms__form {
     max-width: 1240px;
+    margin: 0 auto;
     min-height: 230px;
     padding: 30px 40px;
     background: url(../img/firsrPage/form_section/form_bg.png) no-repeat;
