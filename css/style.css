@@ -1380,6 +1380,9 @@ padding: 0px 0px 0px 20px;
 .dele__block-text-items-big {
     font-family: 'FedraSerifProAMedium';
     font-size: 24px;
+    display: block;
+    width: 65px;
+    white-space: nowrap;
 }
 .dele__block-text-items-little {
     line-height: 1.5;

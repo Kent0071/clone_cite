@@ -478,6 +478,81 @@
     .poster__line {
         margin: 0px 20px;
     }
+    .forms.dele-forms {
+        margin: 40px 0px 40px 0px;
+    }
+    .dele__block-text {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .dele__block-text-first {
+        padding: 10px 0 0 0;
+    }
+    .small-teachers {
+        padding: 35px 0px 0px 0px;
+    }
+    .small-teachers__title {
+        font-size: 18px;
+        margin: 0px 0px 25px 0px;
+    }
+    .small-teachers__body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .small-teachers__img {
+        margin: 0px auto 10px;
+    }
+    .small-teachers__column {
+        flex: 0 1 25%;
+        margin:  0px 10px 15px 10px;
+    }
+    .dele__title {
+        margin: 40px 0px 10px 0px;
+    }
+    .dele__title .title{
+        font-size: 18px;
+    }
+    .dele__block-text-second {
+        padding: 0px 0px 10px 0px;
+    }
+    .dele-desk__skills {
+        font-size: 14px;
+        margin: 0px 0px 10px 0px;
+    }
+    .dele-desk__body {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .dele-desk__item-text {
+        font-size: 14px;
+        margin: 0px 0px 0px 10px;
+    }
+    .dele__block-text-a-level {
+        padding: 0;
+    }
+    .dele__block-text-items-big {
+        font-size: 16px;
+    }
+    .dele__block-text-body {
+        flex-direction: column;
+    }
+    .dele__block-text-items-little {
+        padding: 3px 0 0 0;
+    }
+    .dele__block-text-img {
+        max-width: 80px;
+        height: 80px;
+        margin: 0 auto;
+    }
+    .table-first {
+        margin: 30px 0px 40px 0px;
+    }
+    .table-second {
+        margin: 30px 0px 40px 0px;
+    }
+    .table-third {
+        margin: 30px 0px 40px 0px;
+    }
 }
 /*768=========================================================================*/
 @media screen and (max-width: 650px){
