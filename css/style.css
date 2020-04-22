@@ -539,6 +539,9 @@ padding: 0px 0px 0px 20px;
     max-width: 1240px;
     margin: 0 auto 50px;
 }
+.poster__column.poster__column-first-page{
+    max-width: 388px;
+}
 .poster__column {
     flex: 0 1 388px;
     border: 1px solid rgba(0,0,0,.06);
@@ -609,6 +612,9 @@ padding: 0px 0px 0px 20px;
 .courses__row {
     display: flex;
     margin:  0px 0px 50px 0px;
+}
+.courses__column.courses__column-first-page{
+    max-width: 380px;
 }
 .courses__column {
     flex: 0 1 33.333%;
@@ -714,6 +720,9 @@ padding: 0px 0px 0px 20px;
 .teachers__row {
     display: flex;
     margin: 0 0px 80px 0px;
+}
+.teachers__column.teachers__column-first-page{
+    max-width: 310px;
 }
 .teachers__column {
     flex: 0 1 25%;
