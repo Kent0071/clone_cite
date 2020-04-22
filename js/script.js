@@ -1,6 +1,12 @@
 'use strict';
 
 $(document).ready(function(){
+
+  $('.header__burger').click(function(event){
+    $('.header__burger, .header__nav').toggleClass('active');
+    $('body').toggleClass('lock');
+});
+
     $('.reviews__row').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
