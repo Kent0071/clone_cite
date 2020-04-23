@@ -308,6 +308,9 @@
         margin: 0 auto;
         max-width: 320px;
     }
+    .teachers__column.teachers__column-first-page{
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 970px){
     .footer__bottom {
@@ -843,6 +846,26 @@
     }
     .courses__column.courses__column-first-page .courses__item {
         padding: 40px 20px 5px 20px;
+    }
+    .teachers__row {
+        display: flex;
+        margin: 0 0px 50px 0px;
+    }
+    .about__title {
+        margin: 0px 0px 25px 0px;
+    }
+    .reviews__title {
+        margin: 0px 0px 25px 0px;
+    }
+    .forms-first-page {
+        margin: -100px 0px 70px 0px;
+    }
+    .poster__title {
+        margin: 0px 0px 30px 0px;
+    }
+    .title__text-sup.teachers-title__text-sup {
+        right: -42px;
+        padding: 6px 10px 0px 10px;
     }
 }
 /*768=========================================================================*/

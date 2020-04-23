@@ -149,5 +149,36 @@ $(document).ready(function(){
         ]
     });
     
+    
+    $('.teachers__row').slick({
+      arrows: false,
+      dots: false,
+      responsive: [
+          {
+            breakpoint: 9999,
+            settings: "unslick", 
+          },
+          {
+            breakpoint: 1280,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+              autoplay: true,
+              autoplaySpeed: 2000
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 2000
+            }
+          }
+        ]
+    });
+
   });
 
