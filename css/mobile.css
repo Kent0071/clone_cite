@@ -194,6 +194,19 @@
     }
     .courses__item-price span {
         align-self: start;
+        margin: 12.5px 0 0 0;
+    }
+    .courses__row {
+        margin:  0px 0px 30px 0px;
+    }
+    .poster__row-first-page {
+        margin: 0 auto 30px;
+    }
+    .courses {
+        padding: 55px 0 30px 0;
+    }
+    .poster {
+        padding: 0px 0px 30px 0px;
     }
     .btn.courses__item-btn {
         align-self: start;
@@ -287,7 +300,14 @@
     .wrapper.wrapper-description {
         margin: 0 10px;
     }
-
+    .poster__column-first-page.poster__column {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+    .courses__column.courses__column-first-page {
+        margin: 0 auto;
+        max-width: 320px;
+    }
 }
 @media screen and (max-width: 970px){
     .footer__bottom {
@@ -335,7 +355,9 @@
         line-height: 13px;
         display: inline-block;
     }
-
+    .reviews__row {
+        margin: 0 auto 10px;
+    }
     .footer__block {
         flex: 0 1 100%;
     }
@@ -811,6 +833,16 @@
     .description__slider-row .about__row-item {
         width: 90px;
         height: 100px;
+    }
+    .poster__column-first-page.poster__column {
+        max-width: 280px;
+    }
+    .courses__column.courses__column-first-page {
+
+        max-width: 280px;
+    }
+    .courses__column.courses__column-first-page .courses__item {
+        padding: 40px 20px 5px 20px;
     }
 }
 /*768=========================================================================*/

@@ -608,7 +608,7 @@ padding: 0px 0px 0px 20px;
 }
 .courses__title {
     text-align: center;
-    margin:  0px 0px 60px 0px;
+    margin: 0px 0px 35px 0px;
 }
 .title__text-sup.courses-title__text-sup{
     right: -50px;
@@ -640,6 +640,12 @@ padding: 0px 0px 0px 20px;
 }
 .courses__item-img {
     margin: -70px 0 0 0;
+}
+.courses__column-wrap{
+    padding: 35px 0px 0px 0px;
+}
+.courses__column-wrap.slick-slide img{
+    display: inline-block;
 }
 .courses__item-img img:nth-child(2){
     margin: 0 0 0 -25px;
