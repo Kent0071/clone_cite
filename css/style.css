@@ -853,7 +853,7 @@ padding: 0px 0px 0px 20px;
 .about__row-item {
     width: 235px;
     height: 250px;
-    margin: 0 15px;
+    margin: 0 auto;
     border-radius: 20px;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -1264,9 +1264,7 @@ padding: 0px 0px 0px 20px;
 .description__slider-row .about__row-item{
     width: 220px;
     height: 250px;
-}
-.description__slider-row .about__slide-item {
-    margin: 0 15px;
+    margin: 0 auto;
 }
 .description__text-last-img-box {
     margin:  0px 20px 0px 0px;

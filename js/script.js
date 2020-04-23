@@ -12,7 +12,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         infinite: true,
         arrows: false,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         responsive: [
             {
@@ -37,10 +37,10 @@ $(document).ready(function(){
         autoplaySpeed: 4000,
         responsive: [
             {
-              breakpoint: 775,
+              breakpoint: 768,
               settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
+                slidesToShow: 3,
+                slidesToScroll: 3,
                 infinite: true
               }
             }
@@ -57,79 +57,36 @@ $(document).ready(function(){
       autoplaySpeed: 4000,
       responsive: [
           {
-            breakpoint: 1280,
-            settings: {
-              slidesToShow: 4,
-              slidesToScroll: 4,
-            }
-          },
-          {
-            breakpoint: 950,
+            breakpoint: 768,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 3,
             }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-            }
-          },
-          {
-            breakpoint: 500,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              dots: false,
-            }
           }
         ]
   });
-//пробую настроить слайдер под dots
-//   $('.first-screen__dots').slick({
-//     arrows: false,
-//     dots: false,
-//     responsive: [
-//         {
-//           breakpoint: 1440,
-//           settings: "unslick", 
-//         },
-//         {
-//           breakpoint: 768,
-//           settings: {
-//             slidesToShow: 1,
-//             slidesToScroll: 1,
-//             infinite: true,
-//             arrows: false,
-//             autoplay: false,
-//             autoplaySpeed: 1000,
-//           }
-//         }
-//       ]
-// });
-  $('.first-screen__dots').slick({
-  arrows: false,
-  dots: false,
-  responsive: [
-      {
-        breakpoint: 9999,
-        settings: "unslick", 
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          arrows: false,
-          autoplay: true,
-          autoplaySpeed: 2000
+
+    $('.first-screen__dots').slick({
+    arrows: false,
+    dots: false,
+    responsive: [
+        {
+          breakpoint: 9999,
+          settings: "unslick", 
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 2000
+          }
         }
-      }
-    ]
-  });
+      ]
+    });
 
   });
 

@@ -275,6 +275,19 @@
         padding: 30px 0px 0px 0px;
         height: 480px;
     }
+    .about__row-item {
+        width: 144px;
+        height: 144px;
+       
+    }
+    .description__slider-row .about__row-item {
+        width: 144px;
+        height: 144px;
+    }
+    .wrapper.wrapper-description {
+        margin: 0 10px;
+    }
+
 }
 @media screen and (max-width: 970px){
     .footer__bottom {
@@ -303,20 +316,13 @@
     .poster__column {
         margin: 0 15px 20px 0;
     }
+    
 }
 
 @media screen and (max-width: 920px){
     .courses__column {
         flex: 0 1 50%;
-    }
-}
-@media screen and (max-width: 950px){
-    .description__slider-row .about__slide-item {
-        margin: 0px 30px;
-    }
-}
-.description__slider-row .about__slide-item {
-    margin: 0px 30px;
+    } 
 }
 /*768=========================================================================*/
 @media screen and (max-width: 768px){
@@ -525,9 +531,6 @@
     .teachers__text {
         font-size: 12px;
         line-height: 1.5;
-    }
-    .description__slider-row .about__slide-item{
-        margin: 0 40px;
     }
     .forms__form {
         padding: 20px;
@@ -795,8 +798,20 @@
     .teachers {
         padding: 60px 0 30px 0;
     }
-
-
+    .slick-dotted.slick-slider {
+        margin: 0 -10px 30px -10px;
+    }
+    .description__link-first{
+        margin: 0 0 30px 0;
+    }
+    .about__row-item {
+        width: 100px;
+        height: 100px;
+    }
+    .description__slider-row .about__row-item {
+        width: 90px;
+        height: 100px;
+    }
 }
 /*768=========================================================================*/
 @media screen and (max-width: 650px){
@@ -819,11 +834,6 @@
         text-align: center;
     }
 }
-@media screen and (max-width: 500px){
-    .description__slider-row .about__slide-item {
-        margin: 0px 80px;
-    }
-}
 @media screen and (max-width: 450px){
     .courses__column {
         flex: 0 1 100%;
@@ -836,14 +846,12 @@
         text-align: left;
     }
 }
-@media screen and (max-width: 500px){
-    .description__slider-row .about__slide-item {
-        margin: 0px 40px;
-    }
-}
 @media screen and (max-width: 380px){
     .second-section__btn.btn {
         padding: 11px 35px 0 35px;
         background: url(../img/firsrPage/section_2/arrow_right_red.svg) no-repeat center right 9px;
-    }  
+    } 
+    .about__btn-more .btn{
+        padding: 10px 65px 0 35px;
+    } 
 }
