@@ -109,5 +109,27 @@ $(document).ready(function(){
 //         }
 //       ]
 // });
+  $('.first-screen__dots').slick({
+  arrows: false,
+  dots: false,
+  responsive: [
+      {
+        breakpoint: 9999,
+        settings: "unslick", 
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 2000
+        }
+      }
+    ]
+  });
+
   });
 

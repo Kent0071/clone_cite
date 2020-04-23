@@ -338,10 +338,14 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.first-screen__dots-item-container{
+    outline: 0;
+}
 .first-screen__dots-item {
     position: relative;
     max-width: 250px;
     min-width: 250px;
+    margin: 0 auto;
     height: 250px;
     text-align: center;
     color: #fff;
