@@ -631,7 +631,6 @@ padding: 0px 0px 0px 20px;
     border: 1px solid rgba(0,0,0,.06);
     border-radius: 12px;
     padding: 40px 40px 5px 40px;
-    
 }
 .courses__link {
     color: #000;
@@ -920,7 +919,6 @@ padding: 0px 0px 0px 20px;
 .title__text-sup.contacts-title__text-sup{
     right: -65px;
 }
-
 .contacts-form {
     padding: 60px 0px 0px 0px;
 }
@@ -1013,7 +1011,6 @@ padding: 0px 0px 0px 20px;
     font-family: 'GothamPro-Bold';
 }
 /*===========================================================================================================*/
-
 .contacts-info {
     padding: 90px 0px 0px 0px;
     min-height: 710px;
@@ -1059,7 +1056,6 @@ padding: 0px 0px 0px 20px;
 }
 .contacts-info__column-content-social-group {
     margin: 10px 0px 0px 0px;
-
 }
 .contacts-info__column-content-social-link {
     margin:  0px 5px 0px 0px;
@@ -1095,7 +1091,6 @@ padding: 0px 0px 0px 20px;
 .contacts-info__column-content-text-metro_green{
     background: url(../img/contactsPage/contacts_icon/m_green-i.svg) no-repeat left;
 }
-
 .column-content-metro{
     padding: 0px 0px 0px 70px;
 }
@@ -1136,7 +1131,6 @@ padding: 0px 0px 0px 20px;
     top: -14px;
     padding: 6px 10px;
 }
-
 /*===========================================================================================================*/
 .poster.poster-how-to-learn{
     padding: 0px 0px 80px 0px;
@@ -1206,7 +1200,6 @@ padding: 0px 0px 0px 20px;
     margin: 50px 0;
 }
 /*===========================================================================================================*/
-
 .description {
     margin:  0px 0px 60px 0px;
     font-family: 'Open Sans', sans-serif;
@@ -1251,7 +1244,6 @@ padding: 0px 0px 0px 20px;
     letter-spacing: -0.6px;
     display: block;
     background: url(../img/aboutPage/30.svg) no-repeat left top;
-    
 }
 .description__link {
     text-align: center;
@@ -1501,6 +1493,12 @@ padding: 0px 0px 0px 20px;
     font-family: 'GothamProMedium';
     font-size: 14px;
     padding: 22px 0px 0px 0px;
+}
+.table__inner-level-hiddden{
+    display: none;
+}
+.table__inner-item-sixth-box-hidden{
+    display: none;
 }
 .table__inner-items-container {
     width: 100%;
@@ -1777,4 +1775,3 @@ padding: 0px 0px 0px 20px;
     font-size: 12px;
     margin:  0px 36px 0px 0px;
 }
-/*===========================================================================================================*/

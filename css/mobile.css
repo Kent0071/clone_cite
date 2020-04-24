@@ -1,6 +1,4 @@
 @media screen and (max-width: 1280px){
-
-    /*бургер=====================================================================*/
     body.lock{
         overflow: hidden;
     }
@@ -44,7 +42,6 @@
         padding: 0 66px;
         height: 40px;
     }
-    
     .header__nav.active .header-menu-line{
         display: block;
         height: 1px;
@@ -99,7 +96,6 @@
         color: #000;
         line-height: 30px;
     }
-    /*бургер=====================================================================*/
     .footer {
         padding: 30px 20px;
     }
@@ -145,7 +141,6 @@
     }
     .header__contacts-link {
         font-size: 14px;
- 
     }
     .title.header-body-title{
         font-size: 30px;
@@ -174,7 +169,6 @@
     }
     .contacts-info {
         padding: 60px 0px 0px 0px;
-     
     }
     .contacts-info__row {
         display: flex;
@@ -291,7 +285,6 @@
     .about__row-item {
         width: 144px;
         height: 144px;
-       
     }
     .description__slider-row .about__row-item {
         width: 144px;
@@ -310,6 +303,69 @@
     }
     .teachers__column.teachers__column-first-page{
         margin: 0 auto;
+    }
+    .table__caption-row {
+        display: none;
+    }
+    .table__inner-item-sixth-box {
+       display: none;
+    }
+    .table__inner-item-fifth {
+        display: none;
+    }
+    .table__inner-item-fourth {
+        display: none;
+    }
+    .table__inner-item-third {
+       display: none;
+    }
+    .table__inner-row {
+        flex-direction: column;
+    }
+    .table__inner-item-first {
+        order: 2;
+        max-width: 50%;
+    }
+    .table__inner-items-row {
+        max-width: 100%;
+        border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+    .table__inner-items-row:first-child{
+        border-top: 1px solid rgba(0,0,0,.1);
+    }
+    .table__inner-item-second {
+        order: 1;
+        max-width: 50%;
+    }
+    .table__inner-level {
+        max-width: 100%;
+        padding: 22px 0px 20px 0px;
+    }
+    .table__inner-item-second .table__inner-item-sixth-link {
+        margin: 10px 0 0;
+    }
+    .table__inner-items-row {
+        margin: 0 0 0 40px;
+    }
+    .table__inner-level-hiddden{
+        display: block;
+    }
+    .table__inner-level-hidden-duration{
+        font-family: 'GothamPro';
+        font-size: 12px;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+    .table__inner-level-hidden-price{
+        font-family: 'GothamProMedium';
+        font-size: 14px;
+        color: #f02422;
+        line-height: 22px;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+    .table__inner-item-sixth-box-hidden{
+        display: block;
     }
 }
 @media screen and (max-width: 970px){
@@ -339,9 +395,7 @@
     .poster__column {
         margin: 0 15px 20px 0;
     }
-    
 }
-
 @media screen and (max-width: 920px){
     .courses__column {
         flex: 0 1 50%;
@@ -794,7 +848,6 @@
     }
     .reviews__item{
         padding: 15px 10px;
-
     }
     .reviews__item.slick-slide {
         flex-direction: column;
@@ -866,6 +919,19 @@
     .title__text-sup.teachers-title__text-sup {
         right: -42px;
         padding: 6px 10px 0px 10px;
+    }
+    .table__inner-item-first {
+        justify-content: flex-end;
+        padding: 0;
+    }
+    .table__inner-item-first-name {
+        display: none;
+    }
+    .table__inner-items-row {
+        margin: 0;
+    }
+    .table__inner {
+        padding: 0 20px;
     }
 }
 /*768=========================================================================*/
