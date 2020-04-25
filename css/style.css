@@ -546,6 +546,9 @@ padding: 0px 0px 0px 20px;
 .poster__column.poster__column-first-page{
     max-width: 388px;
 }
+.poster__column-wrap{
+    display: flex;
+}
 .poster__column {
     flex: 0 1 388px;
     border: 1px solid rgba(0,0,0,.06);
@@ -620,6 +623,13 @@ padding: 0px 0px 0px 20px;
 .courses__column.courses__column-first-page{
     max-width: 380px;
 }
+.courses__column-wrap{
+    padding: 35px 0px 0px 0px;
+    display: flex;
+}
+.courses__column-wrap .courses__column{
+    flex: 0 1 auto;
+}
 .courses__column {
     flex: 0 1 33.333%;
     margin: 0 17.5px 0 17.5px;
@@ -640,9 +650,7 @@ padding: 0px 0px 0px 20px;
 .courses__item-img {
     margin: -70px 0 0 0;
 }
-.courses__column-wrap{
-    padding: 35px 0px 0px 0px;
-}
+
 .courses__column-wrap.slick-slide img{
     display: inline-block;
 }

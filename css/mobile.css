@@ -134,6 +134,7 @@
     .header__logo {
         width: 60px;
         height: 60px;
+        margin: 0 0 0 60px;
     }
     .header__logo img {
         width: 60px;
@@ -412,6 +413,21 @@
         line-height: 13px;
         display: inline-block;
     }
+    .header__logo {
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+    .header__logo img {
+        width: 100px;
+        height: 100px;
+    }
+    .header__block {
+        padding: 10px 0;
+    }
+    .header__contacts-item {
+        margin: 10px 0px 0px 0px;
+    }
     .reviews__row {
         margin: 0 auto 10px;
     }
@@ -500,6 +516,7 @@
     }
     .header__contacts {
         flex-wrap: wrap;
+        max-width: 162px;
     }
     .header__contacts-img{
         display: none;
